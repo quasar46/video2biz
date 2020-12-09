@@ -1,0 +1,131 @@
+.footer {
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: #091b42;
+	position: relative;
+	@media(max-width: 768px) {
+		padding: 40px 0;
+		padding-bottom: 60px;
+	}
+}
+
+.footer__wrapper {
+	display: flex;
+	justify-content: space-between;
+	@media (max-width: 768px) {
+		flex-wrap: wrap;
+	}
+}
+
+.footer__col {
+	display: flex;
+	flex-direction: column;
+	&:last-child {
+		flex: 0 1 460px;
+	}
+}
+
+.footer__contacts {
+	margin-bottom: 50px;
+	@media (max-width: 768px) {
+		margin-bottom: 20px;
+	}
+}
+
+.footer__contact {
+	margin-bottom: 15px;
+	span,
+	a {
+		font-family: $font-mont;
+		font-size: 16px;
+		font-weight: 500;
+		color: #ffffff;
+		text-decoration: none;
+		@media (max-width: 768px) {
+			font-size: 14px;
+		}
+	}
+}
+
+.footer__social {
+	display: flex;
+	margin-right: -25px;
+	margin-bottom: 100px;
+	li {
+		padding-right: 25px;
+		a {
+			width: 40px;
+			height: 40px;
+			display: flex;
+			&:hover {
+				opacity: 0.8;
+				transition: 0.3s;
+			}
+			@media (max-width: 768px) {
+				width: 30px;
+				height: 30px;
+			}
+		}
+	}
+	@media (max-width: 768px) {
+		margin-bottom: 40px;
+	}
+}
+
+.footer__copy {
+	font-size: 12px;
+	font-weight: 500;
+	color: #ffffff;
+	line-height: 1.5;
+	display: flex;
+	flex-direction: column;
+	font-family: $font-mont;
+	@media (max-width: 768px) {
+		font-size: 10px;
+		position: absolute;
+		bottom: -50px;
+	}
+}
+
+.footer__form {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+	input {
+		margin-bottom: 40px;
+		line-height: 55px;
+		padding: 0 10px;
+		font-size: 16px;
+		color: #000000;
+		@media (max-width: 768px) {
+			line-height: 40px;
+			margin-bottom: 20px;
+		}
+	}
+	a.main-button {
+		font-family: $font-mont;
+		background: #ff8f00;
+		font-size: 16px;
+		padding: 0 50px;
+		font-weight: 500;
+		color: #000;
+		line-height: 55px;
+		height: 55px;
+		align-self: flex-start;
+		cursor: pointer;
+		margin-top: auto;
+	}
+}
+
+.footer__label {
+	font-size: 12px;
+	font-weight: 500;
+	color: #ffffff;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	font-family: $font-mont;
+	@media (max-width: 768px) {
+		font-size: 10px;
+	}
+}

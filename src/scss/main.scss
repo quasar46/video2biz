@@ -1,0 +1,15 @@
+@import "../../node_modules/normalize.scss/normalize.scss";
+// @import "../fonts/stylesheet.scss";
+@import "variables.scss";
+@import "base.scss";
+
+@import "blocks/header";
+@import "blocks/services";
+@import "blocks/about";
+@import "blocks/team";
+@import "blocks/work";
+@import "blocks/price";
+@import "blocks/clients";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/other";

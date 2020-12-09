@@ -1,0 +1,184 @@
+doctype html
+html(lang="ru")
+	head
+		include modules/head.pug
+	body
+		.content
+			include modules/header.pug
+
+			main
+				section.services#services
+					.container
+						h2.main-title Наши услуги
+						p.services__text К каждому проекту наша команда подбирает индивидуальный, комплексный подход. Мы проводим плотную совместную работу с отделом маркетинга клиента, потому нас не приходится пинать, чтобы дождаться результата. Наши клиенты всегда находят необходимое им понимание, описывая нам свое видение проекта, идеи и пожелания. Мы находим идеальное решение для каждого бюджета.
+						ul.services__list
+							li.item
+								img(src="images/services1.jpg" alt="")
+								span.item__label Презентационное видео
+							li.item
+								img(src="images/services2.jpg" alt="")
+								span.item__label Рекламное видео
+							li.item
+								img(src="images/services3.jpg" alt="")
+								span.item__label Обучающее видео
+							li.item
+								img(src="images/services4.jpg" alt="")
+								span.item__label Видео для соцсетей
+							li.item
+								img(src="images/services5.jpg" alt="")
+								span.item__label Фото для бизнеса
+
+				section.about#about
+					.container
+						h2.main-title О студии
+						.about__wrapper
+							.about__picture
+								img(src="images/about.jpg" alt="")
+							p.about__text Мы начали свою деятельность в 2012 году. Тогда, восемь лет назад, нашей целью была реализация мечты. Мы снимали короткие фильмы, визуализировали различные веселые истории. Сегодня наша команда – команда профессионалов, которой доверяют клиенты. Каждый наш проект собирает вокруг себя всю команду: сценариста, режиссёра, оператора, осветителя, моушн-дизайнера, оператора монтажа и прочих. Мы знаем, что один из лучших инструментов продаж современного бизнеса – качественное и профессиональное фото- и видео сопровождение. Потому мы прикладываем все наши силы для того, чтобы этот инструмент был наиболее эффективным.
+
+							.clearfix
+
+				section.team#team
+					.container
+						h2.main-title Команда
+						ul.team__list
+							li.item
+								img(src="images/team1.jpg" alt="")
+								span.item__label Анатолий Анфилатов графический директор
+							li.item
+								img(src="images/team1.jpg" alt="")
+								span.item__label Анатолий Анфилатов графический директор
+							li.item
+								img(src="images/team1.jpg" alt="")
+								span.item__label Анатолий Анфилатов графический директор
+							li.item
+								img(src="images/team1.jpg" alt="")
+								span.item__label Анатолий Анфилатов графический директор
+							li.item
+								img(src="images/team1.jpg" alt="")
+								span.item__label Анатолий Анфилатов графический директор
+							li.item
+								img(src="images/team1.jpg" alt="")
+								span.item__label Анатолий Анфилатов графический директор
+
+				section.work#work
+					.container
+						h2.main-title Как мы работаем
+						.work__wrapper
+							p.work__text Качество подготовки к съемки – половина успешного дела. Мы проводим предпродакшн даже в тех случаях, когда до съемки остается буквально пару дней: работаем с референсами, пишем крутой сценарий, предварительно выезжаем на место съемки, готовим операторские экспликации и проводим все необходимые работы для того, чтобы в процессе съемки нам ничто не помешало. Только качественная подготовка может дать результат, и мы знаем об этом. 
+							ul.work__list
+								li
+									span.work__number 1.
+									span Работаем с референсами
+								li
+									span.work__number 2.
+									span Пишем сценарий
+								li
+									span.work__number 3.
+									span Готовим операторские экспликации
+								li
+									span.work__number 4.
+									span Выезжаем на место съёмки
+
+				section.price#price
+					.container
+						h2.main-title.main-title--mode Цены
+						.price__wrapper
+							.price__col
+								p.price__text Каждый проект уникален, потому и цена рассчитывается индивидуально. Конечная сумма зависит от множества факторов, таких как:
+								ul.price__list
+									li.item  участие в съемке профессиональных актеров
+									li.item разработка для проекта уникального музыкального сопровождения
+									li.item объем графики
+									li.item уровень технической сложности производства
+									li.item сроки, в которые необходимо уложиться
+								p.price__text и еще около 20 пунктов, которые будут учтены при согласовании стоимости готового продукта
+
+							.price__col
+								form.price__form(action="")
+									input(type="text" placeholder="Имя")
+									input(type="text" placeholder="Телефон")
+									input(type="email" placeholder="E-mail")
+									p.form__label Отправляя заявку, Вы даете согласие на обработку персональных данных
+									a.main-button Заказать звонок
+
+				section.clients#clients
+					.container
+						h2.main-title Наши клиенты
+						ul.clients__list
+							li.item
+								img(src="images/client1.png" alt="")
+							li.item
+								img(src="images/client2.png" alt="")
+							li.item
+								img(src="images/client3.png" alt="")
+							li.item
+								img(src="images/client4.png" alt="")
+							li.item
+								img(src="images/client1.png" alt="")
+							li.item
+								img(src="images/client2.png" alt="")
+							li.item
+								img(src="images/client3.png" alt="")
+							li.item
+								img(src="images/client4.png" alt="")
+
+				section.reviews#reviews
+					.container
+						h2.main-title Отзывы
+						ul.reviews__list
+							li.item
+								.reviews__col.reviews__col--picture
+									img(src="images/person.jpg" alt="")
+								.reviews__col.reviews__col--content
+									.reviews__text
+										p Дарья Стаценко – фотограф высокого профессионализма. Её снимки, в том числе фешн-направления, всегда исключительно интеллектуальны.Она тонко решает вопрос подачи модели и создания образа в не только соответствии с требованиями заказчика, но и глубоко проникая в суть идеи, заложенной в концепции предстоящей съемки.Будучи человеком исключительного воспитания и имеющим широкое многоплановое образование, Дарья является полноценным партнером каждого, кто участвует в фотосессии – организаторов, декораторов, визажистов, стилистов, моделей.
+									a.reviews__link Подробнее
+								.clearfix
+
+							li.item
+								.reviews__col.reviews__col--picture
+									img(src="images/person.jpg" alt="")
+								.reviews__col.reviews__col--content
+									.reviews__text
+										p Дарья Стаценко – фотограф высокого профессионализма. Её снимки, в том числе фешн-направления, всегда исключительно интеллектуальны.Она тонко решает вопрос подачи модели и создания образа в не только соответствии с требованиями заказчика, но и глубоко проникая в суть идеи, заложенной в концепции предстоящей съемки.Будучи человеком исключительного воспитания и имеющим широкое многоплановое образование, Дарья является полноценным партнером каждого, кто участвует в фотосессии – организаторов, декораторов, визажистов, стилистов, моделей.
+									a.reviews__link Подробнее
+
+		footer.footer#footer
+			.container
+				.footer__wrapper
+					.footer__col
+						h2.main-title.main-title--mode Контакты
+						.footer__contacts
+							.footer__contact
+								span Телефон:
+								a(href="tel:+79516414804") +7-951-641-48-04
+							.footer__contact
+								span E-mail:
+								a(href="mailto:info@video2.biz") info@video2.biz
+						ul.footer__social
+							li
+								a(href="")
+									img(src="images/vk.png" alt="Вконтакте" width="100%" height="100%")
+							li
+								a(href="")
+									img(src="images/facebook.png" alt="Facebook" width="100%" height="100%")
+							li
+								a(href="")
+									img(src="images/youtube.png" alt="Youtube" width="100%" height="100%")
+						.footer__copy
+							span © 2020 Video2.biz. Все права защищены.
+							span Разработка сайта magiclab.su
+
+					.footer__col
+						.footer__form
+							input(type="text" placeholder="Имя")
+							input(type="text" placeholder="Телефон")
+							input(type="text" placeholder="E-mail")
+							span.footer__label Отправляя заявку, Вы даете согласие на обработку <br> персональных данных
+							a.main-button Заказать звонок
+
+
+
+	include modules/footer.pug
+	include modules/script.pug

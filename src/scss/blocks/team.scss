@@ -1,0 +1,46 @@
+.team {
+	padding: 50px 0;
+	@media(max-width: 768px) {
+		padding: 40px 0;
+	}
+}
+
+.team__list {
+	padding: 0 50px;
+	
+
+	.item {
+		display: flex;
+		flex-direction: column;
+		padding: 0 15px;
+		.item__label {
+			font-family: $font-base;
+			font-size: 14px;
+			font-weight: 500;
+			color: #ffffff;
+			background-color: #091b42;
+			padding: 10px;
+			text-align: center;
+		}
+	}
+	.slick-prev {
+		background-image: url("../images/slide-prev.png");
+		background-size: cover;
+		width: 30px;
+		height: 30px;
+		left: 0;
+		&:before {
+			display: none;
+		}
+	}
+	.slick-next {
+		background-image: url("../images/slide-next.png");
+		background-size: cover;
+		width: 30px;
+		height: 30px;
+		right: 0;
+		&:before {
+			display: none;
+		}
+	}
+}

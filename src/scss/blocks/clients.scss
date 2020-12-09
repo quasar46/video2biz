@@ -1,0 +1,35 @@
+.clients {
+	padding: 50px 0;
+	@media(max-width: 768px) {
+		padding: 40px 0;
+	}
+}
+
+.clients__list {
+	padding: 0 30px;
+	li.item {
+		display: flex;
+		justify-content: center;
+		padding: 0 20px;
+	}
+	.slick-prev {
+		background-image: url("../images/slide-prev.png");
+		background-size: cover;
+		width: 30px;
+		height: 30px;
+		left: 0;
+		&:before {
+			display: none;
+		}
+	}
+	.slick-next {
+		background-image: url("../images/slide-next.png");
+		background-size: cover;
+		width: 30px;
+		height: 30px;
+		right: 0;
+		&:before {
+			display: none;
+		}
+	}
+}
